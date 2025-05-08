@@ -333,7 +333,7 @@
       "type": "single-heading",
       "name": "Single Heading Text Section",
       "settings": {
-        "heading_text": "Welcome to our store! Shop Now",
+        "heading_text": "Welcome to our store! Shop Now!",
         "text_align": "center",
         "font_size": 48,
         "text_color": "#ffffff"
