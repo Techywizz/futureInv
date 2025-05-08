@@ -1,0 +1,62 @@
+{% comment %}
+  File: sections/heading-text.liquid
+{% endcomment %}
+
+<style>
+  #heading-{{ section.id }} {
+    text-align: {{ section.settings.text_align }};
+    font-size: {{ section.settings.font_size }}px;
+    color: {{ section.settings.text_color }};
+  }
+</style>
+
+<section>
+  <h2 id="heading-{{ section.id }}">{{ section.settings.heading_text }}</h2>
+</section>
+
+{% schema %}
+{
+  "name": "Heading Text",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading_text",
+      "label": "Heading Text",
+      "default": "Welcome to our store!"
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text Alignment",
+      "default": "center",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "label": "Font Size (px)",
+      "min": 12,
+      "max": 48,
+      "step": 1,
+      "default": 24
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#000000"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Heading Text Section",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}
