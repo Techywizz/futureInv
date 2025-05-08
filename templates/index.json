@@ -328,6 +328,16 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
+    },
+    "single_heading_JVaENe": {
+      "type": "single-heading",
+      "name": "Single Heading Text Section",
+      "settings": {
+        "heading_text": "Welcome to our store! Shop Now",
+        "text_align": "center",
+        "font_size": 48,
+        "text_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -338,6 +348,7 @@
     "rich_text_tEbMzP",
     "multicolumn_QzYWQM",
     "featured_collection_6frfxg",
-    "featured_blog_br3dte"
+    "featured_blog_br3dte",
+    "single_heading_JVaENe"
   ]
 }
