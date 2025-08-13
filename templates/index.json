@@ -338,6 +338,26 @@
         "font_size": 48,
         "text_color": "#ffffff"
       }
+    },
+    "1755080379389d912f": {
+      "type": "apps",
+      "blocks": {
+        "qr_coupon_code_qr_coupon_block_h9dENB": {
+          "type": "shopify://apps/qr-coupon-code/blocks/qr-coupon-block/33c35791-ed18-4801-b705-81f491175331",
+          "settings": {
+            "title": "Get Your Exclusive Discount",
+            "subtitle": "Scan the QR code to unlock your special offer!",
+            "backend_url": "https://fa33be2a6add.ngrok-free.app",
+            "campaign_id": "default"
+          }
+        }
+      },
+      "block_order": [
+        "qr_coupon_code_qr_coupon_block_h9dENB"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -349,6 +369,7 @@
     "multicolumn_QzYWQM",
     "featured_collection_6frfxg",
     "featured_blog_br3dte",
-    "single_heading_JVaENe"
+    "single_heading_JVaENe",
+    "1755080379389d912f"
   ]
 }
