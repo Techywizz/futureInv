@@ -348,7 +348,7 @@
             "title": "Get Your Exclusive Discount",
             "subtitle": "Scan the QR code to unlock your special offer!",
             "backend_url": "https://97ccede73891.ngrok-free.app/",
-            "campaign_id": "default"
+            "campaign_id": ""
           }
         }
       },
