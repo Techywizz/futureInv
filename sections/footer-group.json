@@ -11,6 +11,26 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "17550870735ab30b02": {
+      "type": "apps",
+      "blocks": {
+        "qr_coupon_code_qr_coupon_block_QqCWBk": {
+          "type": "shopify://apps/qr-coupon-code/blocks/qr-coupon-block/33c35791-ed18-4801-b705-81f491175331",
+          "settings": {
+            "title": "Get Your Exclusive Discount",
+            "subtitle": "Scan the QR code to unlock your special offer!",
+            "backend_url": "https://40c4a3904885.ngrok-free.app",
+            "campaign_id": "d0a5cc47-d911-4c09-aec3-471280900b7c"
+          }
+        }
+      },
+      "block_order": [
+        "qr_coupon_code_qr_coupon_block_QqCWBk"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "newsletter": {
       "type": "newsletter",
       "blocks": {
@@ -90,6 +110,7 @@
     }
   },
   "order": [
+    "17550870735ab30b02",
     "newsletter",
     "footer"
   ]
